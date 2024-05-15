@@ -1,0 +1,180 @@
+/* 
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #0067cc;
+} */
+
+/*-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("/assets/images/hero-bg2.png"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Semi-transparent white background */
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn-signup {
+  /* background-color: #007bff; */
+  /* background-color: #2dc08d;
+  color: #fff;
+  height: 40px;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; */
+
+  font-family: Rubik, Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #2dc08d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  /* text-decoration: none !important; */
+  white-space: nowrap;
+  vertical-align: middle;
+  /* height: fit-content; */
+  transition: all 0.3s ease-in-out;
+}
+
+/* button:hover {
+  background-color: #0067cc;
+} */
+
+.btn-signup:is(:hover, :focus-visible) {
+  color: #fff;
+  background-color: #2cd69a;
+}
+
+.btn-login {
+  font-family: Rubik, Open Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 600 !important;
+  height: 40px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  /* text-decoration: none !important; */
+  white-space: nowrap;
+  vertical-align: middle;
+  /* height: fit-content; */
+  transition: all 0.3s ease-in-out;
+  color: #2dc08d;
+  border: 2px solid #2dc08d;
+  border-radius: 3px;
+}
+
+.btn-login:is(:hover, :focus-visible) {
+  background-color: #e2f3ed;
+}
